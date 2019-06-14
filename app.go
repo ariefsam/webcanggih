@@ -4,11 +4,13 @@ import (
 	"log"
 	"os"
 
+	"github.com/ariefsam/webcanggih/webservice"
+
 	"github.com/joho/godotenv"
 )
 
 func main() {
-
+	webservice.StartService()
 }
 
 type Config struct {
